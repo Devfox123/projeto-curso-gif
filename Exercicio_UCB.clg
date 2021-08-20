@@ -1,0 +1,41 @@
+algoritmo Dados_cliente;
+// Síntes
+//  Objetivo:  Cadastrar os dados do cliente de uma companhia aérea
+//  Entrada :  	Dados pessoais do cliente
+//  Saída   : 	imprimir dados do client
+principal
+	// Declarações
+	texto  nome, sexo, cpf, telefone ;
+	inteiro qtdmalas;
+	real pesoTotal;
+	
+	// Instruções
+	escreva("Digite seu nome:  ");
+	leia(nome);
+
+	escreva("Digite seu sexo: ");
+	leiaCaracter(sexo);
+	
+	escreva("Digite seu CPF: ");
+	leia( CPF);
+	
+	escreva("Digite seu telefone: ");
+	leia(telefone);
+	
+	escreva("Digite a quantidade de malas: ");
+	leia( qtdmalas);
+	
+	escreva("Valor peso total: ");
+	leiaCaracter (pesoTotal);
+	
+
+	// Mostra os valores lidos
+	escreval ("Seu nome é ", nome);
+	escreval("Seu sexo é ", sexo);
+	escreval("Seu CPF é ", CPF);
+	escreval("Seu número de telefone é ", telefone );
+	escreval("A quantidade de malas é ", malas );
+	escreval ("O valor total é ", total );
+
+
+fimPrincipal

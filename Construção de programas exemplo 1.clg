@@ -1,0 +1,16 @@
+	algoritmo OlaMundo ;
+	//  Objetivo:  Escrever meu primeiro programa
+	
+	//   Entrada : Não Tem
+	
+	//   Saída   : Mensagem "olá mundo"
+	
+	principal
+	
+		// Declarações
+		
+		// Instruções
+	
+		escreva( "Olá mundo!!!!" )	;
+		
+	fimPrincipal

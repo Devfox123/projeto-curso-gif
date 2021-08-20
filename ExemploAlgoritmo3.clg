@@ -1,0 +1,34 @@
+algoritmo AtribuindoVariaveis ;
+
+//  Objetivo:  Atribuir valores a variaveis
+
+//  Entrada : Não tem
+
+//  Saída   : Mensagens com os valores lidos
+
+	principal
+
+		// Declarações
+
+		inteiro ano ;
+	
+		real precoProduto ;
+
+		texto cidade ;
+
+		caracter letra ;
+
+		logico choveuOntem ;
+
+	// Atribui valores para as variaveis
+
+	ano = 2019 ;
+	
+	precoProduto = 19.90 ;
+
+	cidade = "Brasília" ;
+
+	
+		
+
+	fimPrincipal

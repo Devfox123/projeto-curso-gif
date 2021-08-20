@@ -1,0 +1,30 @@
+algoritmo Nascimento_Pessoa;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	inteiro anoNascimento , anoAtual ;
+	
+	inteiro numDias;
+
+	
+	// Pedimos os valores das variáveis
+
+	escreva("Entre com o ano de nascimento: " );
+	
+	leia( anoNascimento );
+
+
+	escreva("Entre com o ano atual: " );
+
+	leia( anoAtual );
+
+	// Calcula número de dias
+	numDias = (anoAtual  - anoNascimento) * 365 ;
+	
+	escreva("Você viveu ", numDias , "dias" );
+
+fimPrincipal

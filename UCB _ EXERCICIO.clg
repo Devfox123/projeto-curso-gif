@@ -1,0 +1,40 @@
+algoritmo DadosCliente;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações 
+	texto nome, sexo, CPF, telefone;
+	real peso, altura;
+	// Instruções
+	escreva("Entre com seu nome: " );
+	leia ( nome );
+
+	escreva ("Entre com seu sexo: " );
+	leia ( sexo );
+
+	escreva("Entre com seu CPF: " );
+	leia ( CPF );
+
+	escreva("Entre com seu telefone: " );
+	leia ( telefone );
+
+	escreva("Entre com seu peso " );
+	leia ( peso );
+
+	escreva( "Entre com sua altura " );
+	leia( altura );
+
+	// Mostra os valores lidos
+	
+	escreval("nome lido: " , nome);
+	escreval("sexo lido: " , sexo);
+	escreval("CPF lido: " , CPF);
+	escreval("telefone lido " , telefone);
+	escreval ("peso lido " , peso);
+	escreval("altura lida " , altura);
+	
+fimPrincipal

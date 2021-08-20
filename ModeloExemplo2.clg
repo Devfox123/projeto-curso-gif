@@ -1,0 +1,18 @@
+ algoritmo MinhaApresentacao;
+	
+	//  Objetivo: Falar um pouco sobre mim
+	  
+	//  Entrada : Não tem
+ 
+	//  Saída   : Várias mensagens falando sobre mim
+	
+	
+	principal
+		// Instruções
+
+		escreval ( "Sou o professor Luiz Reginaldo") ;
+		escreval ( "Estou aqui para ensinar programação") ;
+		escreval ( "Repare que cada linha aqui é um texto que será impresso") ;
+		escreval ( "Veremos outros tipos de dados a seguir") ;
+		
+ fimPrincipal

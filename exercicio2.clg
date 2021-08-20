@@ -1,0 +1,19 @@
+algoritmo ResolucaoEquacaoSegundoGrau;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	real a, b, c;
+	real delta;
+	real x1,x2;
+
+	// Leitura de a,b e c
+	escreva (" Entre com o valor de a: ");
+	leia( a );
+	
+
+fimPrincipal

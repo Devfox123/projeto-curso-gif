@@ -1,0 +1,28 @@
+algoritmo escola;
+// Síntese
+//  Objetivo:  Parabenizar o estudante com nota 10
+//  Entrada :  	Nota	
+//  Saída   :	Mensagem de parabéns
+
+
+principal
+	// Declarações
+	texto mes;
+	// Instruções
+	escreva("Digite o mes: ");
+	leia (mes);
+	escolha (mes)
+		caso 1
+			escreva("Janeiro");
+			interrompa;
+		caso 2
+			escreva("Fevereiro");
+			interrompa;
+		caso 3
+			escreva("Março");
+			interrompa;
+		outroCaso
+		    escreva("Erro!!!");		
+	fimEscolha	    		
+fimPrincipal
+

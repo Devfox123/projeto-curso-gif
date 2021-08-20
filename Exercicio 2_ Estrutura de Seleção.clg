@@ -1,0 +1,28 @@
+algoritmo Troca;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+
+	inteiro a, b ;
+
+	// Pedimos os valores das variáveis
+
+	escreva("Entre com  o valor de a: " );
+	leia( a );
+
+	escreva("Entre com o valor de b: ");
+	leia( b );
+
+	// Faz a troca
+
+	a = a + b ;
+	b = a - b ;
+	a = a - b ;
+	escreva("Depois da troca a = ", a , "b = ", b );
+	
+fimPrincipal

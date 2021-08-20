@@ -1,0 +1,31 @@
+algoritmo CalculoIMC;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	
+	real peso, altura, imc ; 
+
+	// Pede valores das variáveis
+
+	escreva("Entre com os pesos " );
+	
+	leia(peso);
+
+	escreva("Entre com as alturas " );
+
+	leia( altura );
+
+	// Calculando o imc
+
+	imc = peso / (altura*altura) ;
+
+	escreva("O imc = ", imc );
+
+	
+
+fimPrincipal

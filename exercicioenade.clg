@@ -1,0 +1,31 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declara as variaveis
+	inteiro a;
+	
+	// Solicita valores para as variaveis
+	escreva("Entre com o valor de a: ");
+	leia( a );
+
+	//Efetua operacao
+	se(a < 15)entao
+		escreva("Executa 1");
+	senao se (a < 30)entao
+		escreva("Executa 2");
+	senao se (a < 45)entao
+		escreva("Executa 3");
+	senao se (a < 60)entao
+		escreva("Executa 4");			
+	senao
+		escreva( "Executa 5");
+	fimSe
+	fimSe
+	fimSe
+	fimSe	
+fimPrincipal

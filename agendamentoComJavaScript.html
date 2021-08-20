@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Cursos</title>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Grupo 02"/>
+		<meta name="keywords" content="Senai, Projeto, Desenvolvedor Java"/>
+		<meta name="discription" content="Formulário de cadastro"/>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<!-- Java Script -->
+		<script type="text/javascript">
+		function validar(){
+			var validarNome = formularioSenai.nomeDoCurso.value;
+
+			if(validarNome === ""){
+				alert('Preencha o campo Nome');
+				formularioSenai.nomeDoCurso.focus();
+				return false;
+			}
+		}
+		</script>
+	</head>
+
+	<body>
+		
+		<header>
+			<img id="banner" src="img/logo.png" alt="logo senai"/>
+		</header>	
+		
+		<section id="pag-agendamento">		
+			<h1>Cadastro</h1>
+			<p>Formulário de Cursos no Serviço Nacional de Aprendizagem Industrial - SENAI</p>
+			<form name="formularioSenai" method="" action="">
+				<label for="nome">Nome:</label>		
+				<input id="nome" type="text" name="nomeDoCurso" placeholder="Nome do curso"/>
+	
+				<div id="data-hora">
+					<div>
+						<label for="data">Período de Início:</label>
+						<input id="data inicial" type="date" name="data inicial"/>
+					</div>
+					
+					<div>
+						<label for="data">Período de Término:</label>
+						<input id="data termino" type="date" name="data termino"/>
+					</div>					
+				</div>
+
+				<label for="Unidades">Endereço:</label>
+				<select id="Unidades" name="Unidades">
+					<option>Selecione</option>
+					<option value="Brasília">Senai Brasília</option>
+					<option value="Gama">Senai Gama</option>
+					<option value="Sobradinho">Senai Sobradinho</option>
+					<option value="Taguatinga">Senai Taguatinga</option>
+				</select>
+
+				<fieldset>
+					<legend>Local:</legend>
+					<input id="1" type="checkbox" name="local" value="SIG"/> <label for="1">Setor de Indústrias Gráficas, Quadra 6, Lote 1.100</label>
+					<br/>
+					<input id="2" type="checkbox" name="local" value="Gama"/> <label for="2">Área Especial Entrequadras 2 e 8 Setor Sul - Gama/DF</label>
+					<br/>
+					<input id="3" type="checkbox" name="local" value="Sobradinho"/> <label for="3">Quadra 13 Área Especial Nº 03 Lotes A/F
+						Sobradinho-DF</label>
+					<br/>
+					<input id="4" type="checkbox" name="local" value="Taguatinga"/> <label for="4">Área Especial nº 2 - Setor "C" Norte - Taguatinga/DF</label>
+					<br/>					
+				</fieldset>				
+
+				<fieldset>
+					<legend>Turno:</legend>
+					<input id="mat" type="radio" name="turno" value="matutino" /> <label for="mat">Matutino</label>
+					<br>
+					<input id="ves" type="radio" name="turno" value="vespertino" /> <label for="ves">Vespertino</label>
+					<br>
+					<input id="not" type="radio" name="turno" value="noturno" /> <label for="not">Noturno</label>
+				</fieldset>
+	
+				<label for="msg">Descrições adicionais</label>
+				<textarea id="msg" cols="54" rows="6">					
+				</textarea>
+
+				<div id="botoes">
+					<input type="submit" name="btn-Cadastro" value="CADASTRAR" onclick="return validar()">
+					<input type="reset" name="btn-Cancelar" value="CANCELAR">
+				</div>
+			</form>
+		</section>
+		
+			<footer> <!-- Footer é uma tag para identificar o radapé do site}-->
+				<p>Desenvolvido por <a href="https://ead.senaidf.org.br/cursos/cursos-gratuitos.html" target="_blank">Grupo 2</a> - 2021</p>
+			</footer>	
+	</body>
+</html>

@@ -1,0 +1,77 @@
+algoritmo ConversaoBinaria ;
+
+principal
+
+     // Declaração de variáveis
+
+     inteiro numero ;
+
+     inteiro numRepeticao ;
+
+     inteiro restoDivisao ;
+
+     texto numBinario ;
+
+
+
+     // Solicita o numero que será convertido
+
+     escreva( "Entre com o número que será convertido: " );
+
+     leia( numero );
+
+
+
+     // Inicializa variáveis 
+
+     numRepeticao = 0;
+
+     numBinario = "" ;
+
+
+
+     // Converte o numero lido para binario
+
+     enquanto (numero > 0) faca
+
+          // Contamos uma repeticao
+
+          numRepeticao = numRepeticao + 1;
+
+
+
+          // Calcula o resto da divisao do numero por 2
+
+          restoDivisao = (numero % 2) ; 
+
+
+
+          // Guarda o resto no comeco do texto que está em numeroBinario
+
+          numBinario = restoDivisao + numBinario ;
+
+
+
+          // Mostra em qual repeticao estamos, o numero nessa repeticao e o resto divisao
+
+          escreval( "Na repeticao ", numRepeticao, " numero = ", numero, " e o resto da divisao = ", restoDivisao);
+
+
+
+          // Para a proxima repeticao dividimos o numero por dois
+
+          numero = numero / 2 ;           
+
+     fimEnquanto
+
+
+
+     // Mostra o resultado da conversao
+
+     escreval("O numero lido em binario = ", numBinario );
+
+
+
+fimPrincipal
+
+

@@ -1,0 +1,26 @@
+algoritmo ExpressoesRelacionais;
+// Síntese
+//  Objetivo:  Calcular o valor de delta
+//  Entrada :	Valores de a, b e c
+//  Saída   :	Valor de delta  Δ = b2 – 4ac
+
+
+principal
+	// Declarações
+	inteiro a, b, c, delta ;
+	
+	// Solicita os valores de a, b e c
+	
+	escreva( "Entre com o valor de a: " );
+	leia( a ) ;
+	escreva( "Entre com o valor de b: " );
+	leia( b ) ;
+	escreva( "Entre com o valor de c: " );
+	leia( c ) ;
+
+	// Calcula o valor de delta
+	delta = b * b - 4 * a * c ;
+	escreva ("O vslor de delta = ", delta );
+
+
+fimPrincipal

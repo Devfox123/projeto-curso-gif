@@ -1,0 +1,13 @@
+algoritmo MaiorValor;
+//  Objetivo:  Determinar o maior valor de duas variáveis
+principal
+	// Declarações
+	inteiro idade ;
+	escreva ( "Informe sua idade: " );
+	leia ( idade );
+		se ( idade < 21  ) entao
+			escreva ( "Você é jovem " );
+		senao
+			escreva ( "Você é adulto " );
+		fimSe		 	
+fimPrincipal
